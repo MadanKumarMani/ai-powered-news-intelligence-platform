@@ -157,36 +157,43 @@ Returns processed news articles with:
 ## Screenshots
 
 
+<br><br>
 
 ### Dashboard Overview
 
 ![Dashboard](screenshots/dashboard.png)
 
+<br><br>
 
 ### Search Functionality
 
 ![Search](screenshots/search.png)
 
+<br><br>
 
 ### Sentiment Filtering
 
 ![Sentiment_Filter](screenshots/sentiment_filter.png)
 
+<br><br>
 
 ### Summary
 
 ![Summary](screenshots/summary.png)
 
+<br><br>
 
 ### Key Insights
 
 ![Summary](screenshots/key_insights.png)
 
+<br><br>
 
 ### Mobile Responsive View
 
 ![Mobile](screenshots/mobile_view.jpg)
 
+<br><br>
 
 ---
 
