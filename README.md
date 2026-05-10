@@ -59,21 +59,13 @@ https://ai-news-backend-w4ex.onrender.com/articles
 
 ## Project Architecture
 
-NewsData API
-↓
-Python Data Pipeline
-↓
-Data Cleaning + Deduplication
-↓
-AI Processing (Summary + Sentiment + Insights)
-↓
-SQLite Database
-↓
-FastAPI Backend
-↓
-React Dashboard Frontend
-
----
+- NewsData.io API
+- Python Data Pipeline
+- Data Cleaning & Deduplication
+- AI Processing (Summary + Sentiment + Insights)
+- SQLite Database
+- FastAPI Backend
+- React Dashboard Frontend
 
 ---
 
@@ -109,7 +101,7 @@ Extracts 3–5 actionable insights from each article using AI.
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/MadanKumarMani/ai-powered-news-intelligence-platform.git
 ```
 
 ---
