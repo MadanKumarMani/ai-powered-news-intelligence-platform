@@ -69,7 +69,10 @@ function App() {
         style={{
           textAlign: "center",
           marginBottom: "30px",
-          fontSize: "60px",
+          fontSize: "48px",
+          lineHeight: "1.3",
+          fontWeight: "bold",
+          letterSpacing: "1px"
           color: "white"
         }}
       >
