@@ -69,11 +69,13 @@ function App() {
         style={{
           textAlign: "center",
           marginBottom: "30px",
-          fontSize: "clamp(32px, 6vw, 56px)",
-          lineHeight: "1.2",
+          fontSize: "clamp(28px, 5vw, 56px)",
+          lineHeight: "1.3",
           fontWeight: "bold",
-          letterSpacing: "1px"
-          padding: "0 10px"
+          letterSpacing: "1px",
+          padding: "0 12px",
+          wordBreak: "break-word",
+          overflowWrap: "break-word",
           color: "white"
         }}
       >
