@@ -73,7 +73,7 @@ function App() {
           color: "white"
         }}
       >
-        AI News Dashboard
+        AI Powered News Intelligence Platform
       </h1>
 
       {/* Loading */}
