@@ -12,7 +12,7 @@ function App() {
 
   useEffect(() => {
 
-    axios.get("http://127.0.0.1:8000/articles")
+    axios.get("https://ai-news-backend-w4ex.onrender.com/articles")
 
       .then((response) => {
         setArticles(response.data);
