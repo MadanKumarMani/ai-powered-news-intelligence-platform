@@ -69,10 +69,11 @@ function App() {
         style={{
           textAlign: "center",
           marginBottom: "30px",
-          fontSize: "48px",
-          lineHeight: "1.3",
+          fontSize: "clamp(32px, 6vw, 56px)",
+          lineHeight: "1.2",
           fontWeight: "bold",
           letterSpacing: "1px"
+          padding: "0 10px"
           color: "white"
         }}
       >
