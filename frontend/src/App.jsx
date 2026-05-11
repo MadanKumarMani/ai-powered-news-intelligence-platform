@@ -25,7 +25,7 @@ function App() {
 
       .catch((error) => {
         console.log(error);
-        setError("Failed to load articles");
+        setError("Backend server is waking up. Please wait a few seconds and retry.");
         setLoading(false);
       });
 
@@ -96,6 +96,7 @@ function App() {
           }}
         >
           Loading articles...
+          Backend server may take a few seconds to wake up.
         </h2>
       )}
 
