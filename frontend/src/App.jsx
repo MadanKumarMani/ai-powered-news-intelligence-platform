@@ -12,7 +12,11 @@ function App() {
 
   useEffect(() => {
 
-    axios.get("https://ai-news-backend-w4ex.onrender.com/articles")
+    axios.get("https://ai-news-backend-w4ex.onrender.com/articles",
+                {
+              timeout: 30000
+                }
+            )
 
       .then((response) => {
         setArticles(response.data);
