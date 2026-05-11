@@ -100,17 +100,43 @@ function App() {
         </h2>
       )}
 
+      
+
       {/* Error */}
 
       {error && (
-        <h2
+
+        <div
           style={{
-            color: "red",
-            textAlign: "center"
+            textAlign: "center",
+            marginBottom: "20px"
           }}
         >
-          {error}
-        </h2>
+
+          <h2
+            style={{
+              color: "red"
+            }}
+          >
+            {error}
+          </h2>
+
+          <button
+            onClick={() => window.location.reload()}
+            style={{
+              padding: "10px 20px",
+              borderRadius: "8px",
+              border: "none",
+              cursor: "pointer",
+              marginTop: "10px",
+              fontSize: "16px"
+            }}
+          >
+            Retry
+          </button>
+
+        </div>
+
       )}
 
       {/* Main Dashboard */}
